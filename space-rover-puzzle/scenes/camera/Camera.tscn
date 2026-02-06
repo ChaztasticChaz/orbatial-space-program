@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d4de53q6qtflx"]
+
+[ext_resource type="Script" uid="uid://ke0omujqkm4r" path="res://scripts/camera.gd" id="1_hhblj"]
+
+[node name="Camera" type="Camera2D" unique_id=139695388]
+zoom = Vector2(3, 3)
+script = ExtResource("1_hhblj")
+
+[node name="Panel" type="Panel" parent="." unique_id=1539700242]
+offset_left = -192.0
+offset_top = 68.0
+offset_right = 192.0
+offset_bottom = 108.0

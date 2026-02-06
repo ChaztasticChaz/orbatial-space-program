@@ -1,12 +1,22 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770407507
+::res://::1770411409
 icon.svg::CompressedTexture2D::8763768542442759723::1770405529::1770405675::1::::<><><>0<>0<>14077643d0d58cd3c524493af82d4b94<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1770406440
 ::res://assets/tilesheets/::1770406443
 Mars Tilesheet.png::CompressedTexture2D::150245384794964122::1770406395::1770406443::1::::<><><>0<>0<>4855a3e2135e6ca0c6f02b43f75f6716<>res://.godot/imported/Mars Tilesheet.png-ca0bca732b26f6a2752cc06bbb2b9246.ctex::
-::res://levels/::1770407469
-::res://scenes/::1770407507
-::res://scenes/rover/::1770407499
-rover_base.tscn::PackedScene::6911479986447939807::1770407499::0::1::::<><><>0<>0<><>::uid://dw4h8tsmlsqx4::::res://icon.svg
+::res://globals/::1770409926
+global.gd::GDScript::3902856449244292101::1770409926::0::1::::<>Node<><>0<>0<><>::
+::res://levels/::1770411080
+tester.tscn::PackedScene::6843286193532876139::1770411080::0::1::::<><><>0<>0<><>::uid://bm0okd3texl7d::::res://tilemaps/mars_tilemap.tscn<>uid://c5p8ch3hsrsxb::::res://scenes/rovers/rover_base.tscn
+::res://scenes/::1770407922
+::res://scenes/buttons/::1770410475
+forward.tscn::PackedScene::2884854981560128212::1770409926::0::1::::<><><>0<>0<><>::uid://brgdl1c3p76vj::::res://scenes/buttons/forward.gd
+::res://scenes/camera/::1770411409
+Camera.tscn::PackedScene::9201229588433941529::1770411409::0::1::::<><><>0<>0<><>::uid://ke0omujqkm4r::::res://scripts/camera.gd
+::res://scenes/rovers/::1770410475
+rover_base.tscn::PackedScene::6911479986447939807::1770410475::0::1::::<><><>0<>0<><>::uid://dw4h8tsmlsqx4::::res://icon.svg
+::res://scripts/::1770411409
+camera.gd::GDScript::711689534937391243::1770411349::0::1::::<>Camera2D<><>0<>0<><>::
+forward.gd::GDScript::3592220456765507263::1770410475::0::1::::<>Button<><>0<>0<><>::
 ::res://tilemaps/::1770407147
 mars_tilemap.tscn::PackedScene::3281164348732873799::1770407147::0::1::::<><><>0<>0<><>::uid://ce1rwt4i1ta5::::res://assets/tilesheets/Mars Tilesheet.png

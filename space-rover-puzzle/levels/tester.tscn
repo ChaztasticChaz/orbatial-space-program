@@ -2,7 +2,6 @@
 
 [ext_resource type="PackedScene" uid="uid://bm0okd3texl7d" path="res://tilemaps/mars_tilemap.tscn" id="1_5sgsi"]
 [ext_resource type="PackedScene" uid="uid://c5p8ch3hsrsxb" path="res://scenes/rovers/rover_base.tscn" id="2_nvspd"]
-[ext_resource type="PackedScene" uid="uid://ojx4t4yun4ow" path="res://scenes/camera/camera_2d.tscn" id="3_g8pq4"]
 
 [node name="Node2D" type="Node2D" unique_id=1583120582]
 
@@ -11,5 +10,3 @@ layer_0/tile_data = PackedInt32Array(0, 65536, 0, 1, 65536, 0, 2, 65536, 0, 3, 6
 
 [node name="RoverBase" parent="." unique_id=1610564690 instance=ExtResource("2_nvspd")]
 position = Vector2(24, -8)
-
-[node name="Camera2D" parent="RoverBase" unique_id=1340826605 instance=ExtResource("3_g8pq4")]

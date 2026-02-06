@@ -1,5 +1,3 @@
-res://scenes/camera/camera_2d.tscn
 res://levels/tester.tscn
-res://scenes/buttons/forward.tscn
-res://scenes/buttons/forward.gd
-res://globals/global.gd
+res://scenes/camera/Camera.tscn
+res://scenes/camera/camera.gd
