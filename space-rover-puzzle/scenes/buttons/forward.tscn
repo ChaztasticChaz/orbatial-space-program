@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bhdpe06cf7dlc"]
+
+[ext_resource type="Script" uid="uid://brgdl1c3p76vj" path="res://scenes/buttons/forward.gd" id="1_vep0f"]
+
+[node name="Forward" type="Button" unique_id=1470001129]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Forward"
+script = ExtResource("1_vep0f")

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://ojx4t4yun4ow"]
+
+[ext_resource type="PackedScene" uid="uid://bhdpe06cf7dlc" path="res://scenes/buttons/forward.tscn" id="1_n5sbo"]
+
+[node name="Camera2D" type="Camera2D" unique_id=1340826605]
+zoom = Vector2(3, 3)
+
+[node name="Panel" type="Panel" parent="." unique_id=1238524198]
+offset_left = -192.0
+offset_top = 68.0
+offset_right = 192.0
+offset_bottom = 108.0
+
+[node name="Forward" parent="." unique_id=1470001129 instance=ExtResource("1_n5sbo")]
+offset_left = -141.0
+offset_top = 73.0
+offset_right = -68.0
+offset_bottom = 104.0

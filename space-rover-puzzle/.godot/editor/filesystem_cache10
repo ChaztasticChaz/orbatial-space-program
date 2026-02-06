@@ -1,0 +1,12 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1770407507
+icon.svg::CompressedTexture2D::8763768542442759723::1770405529::1770405675::1::::<><><>0<>0<>14077643d0d58cd3c524493af82d4b94<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1770406440
+::res://assets/tilesheets/::1770406443
+Mars Tilesheet.png::CompressedTexture2D::150245384794964122::1770406395::1770406443::1::::<><><>0<>0<>4855a3e2135e6ca0c6f02b43f75f6716<>res://.godot/imported/Mars Tilesheet.png-ca0bca732b26f6a2752cc06bbb2b9246.ctex::
+::res://levels/::1770407469
+::res://scenes/::1770407507
+::res://scenes/rover/::1770407499
+rover_base.tscn::PackedScene::6911479986447939807::1770407499::0::1::::<><><>0<>0<><>::uid://dw4h8tsmlsqx4::::res://icon.svg
+::res://tilemaps/::1770407147
+mars_tilemap.tscn::PackedScene::3281164348732873799::1770407147::0::1::::<><><>0<>0<><>::uid://ce1rwt4i1ta5::::res://assets/tilesheets/Mars Tilesheet.png

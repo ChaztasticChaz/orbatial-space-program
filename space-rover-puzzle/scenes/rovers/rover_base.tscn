@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://c5p8ch3hsrsxb"]
+
+[ext_resource type="Texture2D" uid="uid://dw4h8tsmlsqx4" path="res://icon.svg" id="1_qrbsx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5rbrd"]
+size = Vector2(16, 16)
+
+[node name="RoverBase" type="CharacterBody2D" unique_id=1610564690]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=630217851]
+texture_filter = 1
+position = Vector2(-1.1920929e-07, -1.1920929e-07)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_qrbsx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1386148589]
+shape = SubResource("RectangleShape2D_5rbrd")
+
+[node name="up" type="RayCast2D" parent="." unique_id=354329592]
+position = Vector2(0, -8)
+target_position = Vector2(0, -8)
+
+[node name="down" type="RayCast2D" parent="." unique_id=1993664208]
+position = Vector2(0, 8)
+target_position = Vector2(0, 8)
+
+[node name="left" type="RayCast2D" parent="." unique_id=2041344973]
+position = Vector2(-8, 0)
+target_position = Vector2(-8, 0)
+
+[node name="right" type="RayCast2D" parent="." unique_id=544437164]
+position = Vector2(8, 0)
+target_position = Vector2(8, 0)
